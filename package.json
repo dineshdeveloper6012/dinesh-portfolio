@@ -1,0 +1,26 @@
+{
+    "name": "dinesh-zoho-portfolio",
+    "homepage": "https://dineshdeveloper6012.github.io/dinesh-portfolio/",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+},
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "gsap": "^3.12.5",
+        "jquery": "^3.7.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "three": "^0.160.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^6.1.2",
+        "gh-pages": "^6.1.1",
+        "vite": "^8.3.5"
+    }
+}
