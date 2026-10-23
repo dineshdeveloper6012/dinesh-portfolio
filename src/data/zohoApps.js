@@ -1,5 +1,6 @@
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
 const C = 'CRM & Sales', F = 'Finance & Inventory', A = 'Automation & Custom Apps', O = 'Others';
-const c = id => `/apps/cat/${id}.webp`;
+const c = id => asset(`/apps/cat/${id}.webp`);
 // icon: file in /public/apps/cat. Apps without a file (Deluge, REST APIs, ...) keep the monogram design.
 export const zohoApps = [
   { id: 'crm', name: 'Zoho CRM', short: 'CRM', cat: C, icon: c('crm'), desc: 'CRM customization, workflows, automation, APIs, widgets and client scripts.', skills: ['Blueprints', 'Deluge', 'Widgets', 'APIs'] },
@@ -39,7 +40,7 @@ export const zohoApps = [
   { id: 'more', name: 'More...', short: '+', cat: O, desc: 'Development for other platforms and tools, built to fit your needs.', skills: ['Custom', 'Integrations'] }
 ];
 // The hero 3D orbit keeps its original app set and icons (unchanged by the category update).
-const i = id => `/apps/${id}.webp`;
+const i = id => asset(`/apps/${id}.webp`);
 export const orbitApps = [
   { id: 'crm', name: 'Zoho CRM', icon: i('crm') },
   { id: 'sign', name: 'Zoho Sign', icon: i('sign') },

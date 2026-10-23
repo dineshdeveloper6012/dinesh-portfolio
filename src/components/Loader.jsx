@@ -24,7 +24,7 @@ export default function Loader({ onDone }) {
   if (gone) return null;
   return (
     <div className="loader" ref={root} role="status" aria-label="Loading portfolio">
-      <img className="ld-logo" src="/logo-dark.webp" width="150" height="64" alt="" />
+      <img className="ld-logo" src={`${import.meta.env.BASE_URL}logo-dark.webp`} width="150" height="64" alt="" />
       <div className="ld-line"><span className="ld-name">DINESH KUMAR</span></div>
       <div className="ld-line"><span className="ld-role">Zoho Developer</span></div>
       <div className="ld-bar"><i ref={bar} /></div>
