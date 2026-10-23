@@ -14,7 +14,7 @@ export default function About() {
           <div className="col-lg-4">
             <div className="photo" data-reveal>
               <div className="photo-in" data-parallax="-6">
-                <img src="{`${import.meta.env.BASE_URL}profile.webp" width="420" height="420" loading="lazy" decoding="async" alt="Portrait of Dinesh Kumar, Zoho developer" />
+                <img src={`${import.meta.env.BASE_URL}profile.webp`} width="420" height="420" loading="lazy" decoding="async" alt="Portrait of Dinesh Kumar, Zoho developer" />
               </div>
             </div>
           </div>
