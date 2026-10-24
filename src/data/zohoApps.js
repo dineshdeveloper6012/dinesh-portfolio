@@ -15,6 +15,8 @@ export const zohoApps = [
   { id: 'commerce', name: 'Commerce', short: 'COM', cat: C, icon: c('commerce'), desc: 'Online store connected to inventory, payments and CRM.', skills: ['Storefront', 'Orders', 'Sync'] },
   { id: 'backstage', name: 'Backstage', short: 'BKS', cat: C, icon: c('backstage'), desc: 'Event management with registrations, ticketing and attendee follow-up.', skills: ['Events', 'Tickets', 'Registrations'] },
   { id: 'sign', name: 'Sign', short: 'SGN', cat: C, icon: c('sign'), desc: 'E-signature steps triggered automatically inside business workflows.', skills: ['E-sign', 'Templates', 'Webhooks'] },
+  { id: 'more', name: 'More...', short: '+', cat: C, desc: 'Development for other platforms and tools, built to fit your needs.', skills: ['Custom', 'Integrations'] },
+
   { id: 'books', name: 'Zoho Books', short: 'BKS', cat: F, icon: c('books'), desc: 'Invoicing and finance flows connected to operations data.', skills: ['Invoices', 'Sync', 'APIs'] },
   { id: 'invoice', name: 'Invoice', short: 'INV', cat: F, icon: c('invoice'), desc: 'Simple invoicing and payment tracking for service businesses.', skills: ['Invoices', 'Payments', 'Reminders'] },
   { id: 'expense', name: 'Expense', short: 'EXP', cat: F, icon: c('expense'), desc: 'Expense capture, approvals and reimbursements.', skills: ['Approvals', 'Receipts', 'Policies'] },
@@ -24,17 +26,21 @@ export const zohoApps = [
   { id: 'payments', name: 'Payments', short: 'PMT', cat: F, icon: c('payments'), desc: 'Online payment collection connected to your finance apps.', skills: ['Gateways', 'Reconciliation', 'Sync'] },
   { id: 'checkout', name: 'Checkout', short: 'CHK', cat: F, icon: c('checkout'), desc: 'Payment pages and links for fast, simple checkout.', skills: ['Payment pages', 'Links', 'Sync'] },
   { id: 'practice', name: 'Practice', short: 'PRC', cat: F, icon: c('practice'), desc: 'Practice management for accounting and professional-services firms.', skills: ['Clients', 'Tasks', 'Billing'] },
+  { id: 'more', name: 'More...', short: '+', cat: F, desc: 'Development for other platforms and tools, built to fit your needs.', skills: ['Custom', 'Integrations'] },
+
   { id: 'creator', name: 'Zoho Creator', short: 'CRT', cat: A, icon: c('creator'), desc: 'Custom low-code business applications with forms, reports and role-based access.', skills: ['Deluge', 'Pages', 'Custom APIs'] },
   { id: 'flow', name: 'Zoho Flow', short: 'FLW', cat: A, icon: c('flow'), desc: 'Cross-app automation between Zoho and third-party tools.', skills: ['Triggers', 'Actions', 'Webhooks'] },
   { id: 'rpa', name: 'Zoho RPA', short: 'RPA', cat: A, icon: c('rpa'), desc: 'Robotic process automation for repetitive, rule-based desktop and web tasks.', skills: ['Bots', 'Workflows', 'Scheduling'] },
   { id: 'analytics', name: 'Zoho Analytics', short: 'ANL', cat: A, icon: c('analytics'), desc: 'Reports and dashboards over data from across your Zoho apps.', skills: ['Reports', 'Dashboards'] },
   { id: 'dataprep', name: 'Zoho DataPrep', short: 'DPR', cat: A, icon: c('dataprep'), desc: 'Data cleansing and preparation pipelines before analysis or migration.', skills: ['Cleaning', 'Pipelines', 'Migration'] },
-  { id: 'catalyst', name: 'Zoho Catalyst', short: 'CTL', cat: A, icon: c('catalyst'), desc: 'Serverless platform for custom backends, functions and full-stack apps.', skills: ['Functions', 'Serverless', 'APIs'] },
-  { id: 'qntrl', name: 'Qntrl', short: 'QNT', cat: A, icon: c('qntrl'), desc: 'Workflow orchestration for cross-team business processes.', skills: ['Orchestration', 'Approvals', 'Visibility'] },
+  // { id: 'catalyst', name: 'Zoho Catalyst', short: 'CTL', cat: A, icon: c('catalyst'), desc: 'Serverless platform for custom backends, functions and full-stack apps.', skills: ['Functions', 'Serverless', 'APIs'] },
+  // { id: 'qntrl', name: 'Qntrl', short: 'QNT', cat: A, icon: c('qntrl'), desc: 'Workflow orchestration for cross-team business processes.', skills: ['Orchestration', 'Approvals', 'Visibility'] },
   { id: 'deluge', name: 'Deluge', short: 'DLG', cat: A, desc: 'Zoho\u2019s scripting language for automation, custom functions and system logic.', skills: ['Functions', 'Schedulers', 'invokeUrl'] },
   { id: 'api', name: 'REST APIs', short: 'API', cat: A, desc: 'Integrating Zoho with third-party services over REST and OAuth.', skills: ['OAuth', 'Webhooks', 'JSON'] },
   { id: 'widgets', name: 'CRM Widgets', short: 'WGT', cat: A, desc: 'HTML, CSS and JavaScript widgets embedded in CRM, Desk and Creator.', skills: ['JS SDK', 'HTML/CSS'] },
   { id: 'scripts', name: 'Client Scripts', short: 'CLS', cat: A, desc: 'Browser-side logic that validates and guides users inside Zoho UIs.', skills: ['Validation', 'UI rules'] },
+  { id: 'more', name: 'More...', short: '+', cat: A, desc: 'Development for other platforms and tools, built to fit your needs.', skills: ['Custom', 'Integrations'] },
+
   { id: 'shopify', name: 'Shopify', short: 'SHP', cat: O, icon: c('shopify'), desc: 'Shopify store setup, themes and custom app development.', skills: ['Stores', 'Themes', 'Custom apps'] },
   { id: 'webdev', name: 'Web Development', short: 'WEB', cat: O, icon: c('webdev'), desc: 'Responsive websites and web apps built with modern front-end tools.', skills: ['React', 'HTML/CSS', 'JavaScript'] },
   { id: 'more', name: 'More...', short: '+', cat: O, desc: 'Development for other platforms and tools, built to fit your needs.', skills: ['Custom', 'Integrations'] }
